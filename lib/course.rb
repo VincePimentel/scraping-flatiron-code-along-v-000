@@ -3,7 +3,7 @@ class Course
 
   @@all
 
-  def method_name
+  def initialize
     @@all << self
   end
 
